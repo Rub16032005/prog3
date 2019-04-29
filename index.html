@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf8">
+	   
+	    <style>
+	    	th{
+	    		border: 3px solid blue;
+	            font-size: 16px;
+	            padding-left: 5px;
+
+	    	}
+	      	table{
+	      		margin: 140px auto 170px;
+                transform: rotate(10deg);
+	      	}
+
+	        td {
+	            border: 1px solid red;
+	            font-size: 14px;
+	            padding-left: 5px;
+	        }
+            canvas{
+                margin: 30px 35%;
+            }
+	    </style>
+	</head>
+	<body>
+	     <table width="50%" cellpadding="5" cellspacing="5" cols="7" rules="all" border="5">
+        <tr>
+            <th>Գույն</th>
+            <th>Անվանում</th>
+            <th>Շարժվում է</th>
+            <th>Ուտում է</th>
+            <th>Բազմանում է</th>
+            <th>Սատկում է</th>
+        </tr>
+        <tr>
+            <td bgcolor="#acacac"></td>
+            <td>Դատարկ վանդակ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="green"></td>
+            <td>Խոտ</td>
+            <td>Մոտակա 8 վանդակներում, 3 տակտը մեկ</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow"></td>
+            <td>Խոտակեր</td>
+            <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1-ով։</td>
+            <td>Խոտերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 2-ով։</td>
+            <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 15-ից ավել է։</td>
+            <td>Սատկում է, երբ էներգիան փոքր է 5-ից։</td>
+        </tr>
+        <tr>
+            <td bgcolor="red"></td>
+            <td>Գիշատիչ</td>
+            <td>Մոտակա 8 վանդակներում,էներգիան պակասում է 1-ով։</td>
+            <td>Խոտակերներին,մոտակա 8 վանդակներում,էներգիան ավելանում է 3-ով։</td>
+            <td>Մոտակա տարածքներում,երբ էներգիան մեծ է 15-ից։</td>
+            <td>Երբ էներգիան փոքր է 0-ից։ </td>
+        </tr>
+        <tr>
+            <td bgcolor="blue"></td>
+            <td>1-ին կերպար</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td bgcolor="black"></td>
+            <td>2-րդ կերպար</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+            <script src="class.js"></script>
+            <script src="gishatich.js"></script>
+            <script src="kerparMek.js"></script>
+            <script src="kerparErku.js"></script>
+            <script src="script.js"></script>
+        
+        
+	</body>
+</html>
+
